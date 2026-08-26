@@ -76,7 +76,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v6
         with:
-          python-version: ${{ matrix.python-version }}
+          python-version: "3.13"
           cache: 'pip'
 
       - name: Install numcodecs
@@ -126,7 +126,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v6
         with:
-          python-version: ${{ matrix.python-version }}
+          python-version: "3.13"
           cache: 'pip'
 
       - name: Install numcodecs and Zarr
